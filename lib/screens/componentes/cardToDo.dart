@@ -23,7 +23,7 @@ class CardTodo extends StatelessWidget {
             ),
             IconButton(onPressed: (){
               print("Icono presionado");
-            }, icon: Icon(Icons.delete),color: Colors.red[800])
+            }, icon: Icon(Icons.delete),color: Colors.purple)
           ],
         ),
       ),

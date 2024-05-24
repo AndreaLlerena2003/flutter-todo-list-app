@@ -1,21 +1,22 @@
-// Suggested code may be subject to a license. Learn more: ~LicenseLog:2903988206.
 import 'package:flutter/material.dart';
 
 class TittleAndrea extends StatelessWidget {
   const TittleAndrea({super.key});
 
-   @override
+  @override
   Widget build(BuildContext context) {
-    return Align(
-        alignment: Alignment.centerLeft,
-        child: Text(
-          'To do List',
-           style: TextStyle(color: Colors.black,
-           fontSize: 20,
-           fontWeight: FontWeight.bold),
+    return Container(
+     margin: EdgeInsets.symmetric(horizontal: 10), // Añade margen solo en los lados izquierdo y derecho
+      alignment: Alignment.centerLeft,
+      child: Text(
+        'Hello, Andrea!',
+        style: TextStyle(
+          color: Colors.grey[700],
+          fontSize: 18,
+          fontWeight: FontWeight.w500,
+          fontFamily: 'Serif'
         ),
-        
+      ),
     );
   }
-
 }
